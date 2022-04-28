@@ -1,5 +1,5 @@
 # countdown-timer
-Basic "Coming soon" page, used HTML; CSS and JS. Informing you how much time is left for the launch.
+Basic "Coming soon" page in HTML; CSS and JS. It is informing you how much time is left for the launch.
 
 <img src="readme_images/macbook.png">
 
