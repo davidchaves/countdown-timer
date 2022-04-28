@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+    <title>COUNTDOWN</title>
+</head>
+<body>
+<div class="header">
+    <img src="images/top-image.svg" alt="top">
+</div>
+
+<div class="time">
+    <p class="box1"> READY TO LAUNCH IN...</p>
+    <div class="countdownTimerBox">
+        <span>
+            Dias
+        </span>
+        <span>
+            Horas
+        </span>
+        <span>
+            Minutos
+        </span>
+        <span>
+            Segundos
+        </span>
+    </div>
+
+    <p id="downCount"></p>
+
+    <div class="warn">
+        <span>Inscreva-se para saber mais sobre o lançamento</span>
+        <button type="button" id="register-btn">Inscreva-se</button>
+    </div>
+</div>
+
+<div class="rocket">
+    <img src="./images/rocket.svg" alt="rocket"/>
+</div>
+
+<div class="footer">
+    <img src="images/bottom-image.svg" alt="bottom"/>
+</div>
+
+<div class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <form action="#" method="GET">
+            <h1>Cadastro</h1>
+            <div>
+                <label for="name"> Name:</label>
+                <input type="text" id="name"/>
+            </div>
+            <div>
+                <label for="email">E-mail:</label>
+                <input type="email" id="email"/>
+            </div>
+            <div>
+                <label for="msg">Mensagem:</label>
+                <textarea id="msg"></textarea>
+            </div>
+            <div class="btnBox">
+                <button type="submit" class="btn">Cadastrar</button>
+            </div>
+        </form>
+    </div>
+</div>
+</body>
+<script src="apps.js"></script>
+</html>
